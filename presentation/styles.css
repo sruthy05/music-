@@ -1,0 +1,139 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and General Layout */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+    background-color: #f4f4f4;
+        font-family: "Berkshire Swash", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+
+
+/* Container for centralized content */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+.container img{
+    width: 400px;
+    height:500px;
+}
+
+/* Header Section */
+header {
+    background-color:#f242f5;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Event Details Section */
+.event-details {
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.event-details h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.event-details p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.container2{
+    text-align: justify;
+}
+
+.event-details img {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+/* Tickets Section */
+.tickets {
+    padding: 40px 0;
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.tickets h2 {
+    margin-bottom: 20px;
+}
+.tickets p{
+    margin-bottom: 20px;
+}
+
+.tickets .btn {
+    padding: 10px 20px;
+    margin-bottom: 100px;
+    background-color: #f242f5;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.tickets .btn:hover {
+    background-color: #d742f5;
+}
+
+/* Contact Section */
+.contact {
+    padding: 40px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact ul {
+    list-style: none;
+    margin: 20px 0;
+}
+
+.contact ul li {
+    margin: 10px 0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
